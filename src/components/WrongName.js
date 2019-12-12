@@ -12,7 +12,7 @@ const WrongName = () => {
             <div className="App">
                 <Header text="Test Wrong Name" />
             </div>
-            <img src="./wrongname/wrongname/wrongname.png" alt=""></img>
+            <img src="/wrongname/wrongname/wrongname.png" alt=""></img>
         </>
     )
 }
