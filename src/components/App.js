@@ -41,6 +41,16 @@ const App = () => {
     };
 
 
+    const componentDidMount = () => {
+        console.log('ahihii');
+        // const script = document.createElement("script");
+        // script.src = "/static/libs/a1.js";
+        // script.async = true;
+        // script.onload = () => this.scriptLoaded();
+
+        // document.body.appendChild(script);
+    }
+
     return (
         <>
             <Helmet>
@@ -62,6 +72,15 @@ const App = () => {
                             )}
                 </div>
             </div>
+            <script src={process.env.PUBLIC_URL + '/assets/js/a1.js'}></script>
+            <script src={process.env.PUBLIC_URL + '/assets/js/a2.js'}></script>
+            <script src={process.env.PUBLIC_URL + '/assets/js/a3.js'}></script>
+            <script src={process.env.PUBLIC_URL + '/assets/css/a1.css'}></script>
+            <script src={process.env.PUBLIC_URL + '/assets/css/a2.css'}></script>
+            <script src={process.env.PUBLIC_URL + '/assets/css/a3.css'}></script>
+
+            <img src={process.env.PUBLIC_URL + '/assets/images/img1.png'} alt=""/>
+            <img src={process.env.PUBLIC_URL + '/wrongpath/sth/error.png'} alt=""/>
         </>
     );
 };

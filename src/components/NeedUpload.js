@@ -12,6 +12,8 @@ const NeedUpload = () => {
             <div className="App">
                 <Header text="Test Need Upload" />
             </div>
+            <img src={process.env.PUBLIC_URL + '/assets/images/img1.png'} alt=""/>
+            <img src={process.env.PUBLIC_URL + '/wrongpath/sth/error.png'} alt=""/>
         </>
     )
 }
