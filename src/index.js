@@ -38,7 +38,7 @@ const routing = (
                     <Link to="/page/wrong-extension">Wrong Extension</Link>
                 </li>
             </ul>
-            <Route exact path="/" component={App} />
+            <Route exact path="/page" component={App} />
             <Route exact path="/page/need-include" component={NeedInclude} />
             <Route exact path="/page/need-upload" component={NeedUpload} />
             <Route exact path="/page/wrong-name" component={WrongName} />
