@@ -81,6 +81,8 @@ const App = () => {
 
             <img src={process.env.PUBLIC_URL + '/assets/images/img1.png'} alt=""/>
             <img src={process.env.PUBLIC_URL + '/wrongpath/sth/error.png'} alt=""/>
+
+            <img src="https://ea-advice-test-web.herokuapp.com/page/wrong-extension/assets/images/img1.jpeg" alt=""/>
         </>
     );
 };
